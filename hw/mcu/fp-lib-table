@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name mcu)(type KiCad)(uri "$(KIPRJMOD)/mcu.pretty")(options "")(descr ""))
+  (lib (name eqmax)(type KiCad)(uri /home/max/prj/eqmax/kicad/eqmax.pretty)(options "")(descr ""))
+  (lib (name ccd)(type KiCad)(uri /home/max/prj/maxguider/hw/ccd/ccd.pretty)(options "")(descr ""))
+)
