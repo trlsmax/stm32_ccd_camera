@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:mcu-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,7 +34,7 @@ LIBS:issi
 LIBS:st
 LIBS:mcu
 LIBS:mcu-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -810,7 +811,7 @@ Wire Wire Line
 	10150 2650 10350 2650
 Connection ~ 10350 2650
 $Comp
-L USB_B P3
+L USB_B-RESCUE-mcu P3
 U 1 1 57120A50
 P 10450 1750
 F 0 "P3" V 10150 1600 50  0000 L CNN
@@ -2934,4 +2935,64 @@ F 3 "" H 6475 2200 50  0000 C CNN
 	1    6275 2200
 	0    1    1    0   
 $EndComp
+NoConn ~ 3350 9100
+NoConn ~ 3350 9000
+NoConn ~ 3350 8900
+NoConn ~ 3350 8800
+NoConn ~ 3350 8700
+NoConn ~ 3350 8600
+NoConn ~ 3350 7800
+NoConn ~ 3350 7700
+NoConn ~ 3350 7600
+NoConn ~ 3350 7500
+NoConn ~ 3350 7400
+NoConn ~ 3350 7300
+NoConn ~ 3350 7200
+NoConn ~ 3350 7100
+NoConn ~ 3350 7000
+NoConn ~ 3350 6900
+NoConn ~ 3350 6100
+NoConn ~ 3350 4400
+NoConn ~ 5900 1200
+NoConn ~ 5900 1300
+NoConn ~ 5900 1400
+NoConn ~ 5900 1600
+NoConn ~ 5900 1800
+NoConn ~ 5900 1900
+NoConn ~ 5900 2000
+NoConn ~ 5900 2300
+NoConn ~ 5900 2400
+NoConn ~ 5900 2500
+NoConn ~ 5900 2600
+NoConn ~ 5900 2700
+NoConn ~ 5900 3100
+NoConn ~ 5900 3200
+NoConn ~ 5900 3300
+NoConn ~ 5900 4300
+NoConn ~ 5900 4400
+NoConn ~ 5900 4700
+NoConn ~ 5900 5000
+NoConn ~ 5900 5100
+NoConn ~ 5900 5200
+NoConn ~ 5900 5300
+NoConn ~ 5900 5400
+NoConn ~ 5900 5500
+NoConn ~ 5900 5600
+NoConn ~ 5900 5700
+NoConn ~ 5900 5800
+NoConn ~ 5900 5900
+NoConn ~ 5900 6000
+NoConn ~ 5900 6100
+NoConn ~ 5900 6500
+NoConn ~ 5900 6600
+NoConn ~ 5900 6900
+NoConn ~ 5900 7100
+NoConn ~ 5900 7200
+NoConn ~ 5900 7300
+NoConn ~ 5900 8200
+NoConn ~ 5900 8400
+NoConn ~ 5900 8500
+NoConn ~ 5900 8600
+NoConn ~ 7800 5650
+NoConn ~ 7800 5550
 $EndSCHEMATC
